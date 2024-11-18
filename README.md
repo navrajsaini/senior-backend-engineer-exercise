@@ -43,7 +43,7 @@ Example job data:
 ## Success
 
 - We can run the API and ingest database on your setup instructions
-- The API is written in Python or Go
+- The API is written in Golang
 
 ## Not Required
 
