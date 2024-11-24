@@ -75,39 +75,39 @@ Example job data:
 All api endpoints are under: `/api/v1`
 
 ## Creating a new entry:
-- make POST request to /api/v1/employee
+- make POST request to `/api/v1/employee`
 - request body must be a in json format
 - the employee_id must be unique otherwise a 400 response will be returned
 ex:
-'''
+```
 {
     "employee_id": 8,
     "department": "Engineering",
     "job_title": "Senior Enginer",
     "gender": "male"
 }
-'''
+```
 
 ## Reading employee entries:
 Read all employee entries:
 - make GET reques to /api/v1/employees
 
 Read unique employee entry:
-- make GET request to /api/v1/employee/<id>
+- make GET request to `/api/v1/employee/<id>`
 - 200 response with the employee data will be returned
 
 ## Updating employee entry:
-- make a PUT request to /api/v1/employee/<id>
+- make a PUT request to `/api/v1/employee/<id>`
 - Request body must be in json format with the new data needed
 ex:
-'''
+```
 {
     "employee_id": 1,
     "department": "Engineering",
     "job_title": "Senior Enginer",
     "gender": "male"
 }
-'''
+```
 
 ## Deleting a employee entry:
 - make a DELETE request to /api/v1/employee/<id>
