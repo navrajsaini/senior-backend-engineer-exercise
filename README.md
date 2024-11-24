@@ -69,10 +69,10 @@ Example job data:
 
 # Solution info
 ## Setup:
-- set PORT env variable
+- set `PORT` env variable
 - start the api (I used `go run .` in the api working directory)
 
-All api expoints are under:/api/v1
+All api endpoints are under: `/api/v1`
 
 ## Creating a new entry:
 - make POST request to /api/v1/employee
